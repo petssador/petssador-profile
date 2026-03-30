@@ -1,0 +1,2 @@
+class PetRepository:
+    pass

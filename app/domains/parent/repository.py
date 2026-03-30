@@ -1,0 +1,2 @@
+class ParentRepository:
+    pass

@@ -1,0 +1,72 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual environments
+.venv/
+.profilevenv/
+*.profilevenv/
+venv/
+env/
+.env.venv/
+
+# Environment and secrets (keep .env.example in repo if you add one)
+.env
+.env.local
+.env.*.local
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+*.egg
+.eggs/
+
+# Testing & coverage
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+coverage.xml
+*.cover
+.hypothesis/
+
+# Type checkers / linters
+.mypy_cache/
+.ruff_cache/
+.dmypy.json
+dmypy.json
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Local databases
+*.db
+*.sqlite3
+
+# Database migrations
+alembic/
+alembic/versions/
+alembic.ini
+alembic/env.py
+alembic/script.py.mako
+
+# Logs
+*.log
+logs/
+
+# Jupyter
+.ipynb_checkpoints/
