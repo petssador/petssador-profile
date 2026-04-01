@@ -1,4 +1,4 @@
-from app.core.exceptions import ConflictError, NotFoundError, ValidationError
+from app.core.exceptions import ConflictError, ForbiddenError, NotFoundError, ValidationError
 
 
 class ParentAlreadyExistsError(ConflictError):
@@ -14,4 +14,8 @@ class ParentOnboardingValidationError(ValidationError):
 
 
 class ParentInactiveError(ValidationError):
+    pass
+
+
+class ParentInactiveError(ForbiddenError):
     pass
